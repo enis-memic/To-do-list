@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import './style.css';
 
 const tasks = [
@@ -20,7 +19,7 @@ const tasks = [
 ];
 const taskList = () => {
   const container = document.getElementById('data');
-  for (let i = 0; i < tasks.length; i++) {
+  for (let i = 0; i < tasks.length; i += 1) {
     const task = document.createElement('div');
     task.classList.add('list-to-do');
     task.innerHTML = `
