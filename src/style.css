@@ -19,6 +19,9 @@ body {
   font-style: italic;
   font-size: 18px;
 }
+.input-add {
+  display: flex;
+}
 
 ul {
   border: 1px solid rgb(238, 238, 238);
