@@ -5,10 +5,14 @@ body {
   padding: 0;
   border: 1px solid #7e7e7e;
 }
-
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 .heading {
-  font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   margin: 10px;
 }
 
@@ -21,11 +25,14 @@ body {
 }
 .input-add {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
-.images {
-  width: 15px;
-  margin-left: 20px;
+.new-task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
 }
 
 ul {
@@ -35,9 +42,15 @@ ul {
 }
 .task {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
+}
+.edit {
+  padding: 5px;
+  margin: 10px;
+  border: none;
+  font-size: 18px;
 }
 
 .to-do button {

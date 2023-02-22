@@ -11,8 +11,8 @@ const display = () => {
     const task = document.createElement('div');
     task.classList.add('task');
     task.innerHTML = `
-    <input type=:"checkbox" >
-    <input class:"edit" type=:"text" value="${element.description}">
+    <input type="checkbox" class="check" id="check">
+    <input class="edit" type="text" value="${element.description}" readOnly>
     <div>
     <i id="${element.index}" class="fa-solid fa-trash-can"></i>
     </div>
