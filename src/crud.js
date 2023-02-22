@@ -12,7 +12,7 @@ const display = () => {
     task.classList.add('task');
     task.innerHTML = `
     <input type="checkbox" class="check" id="check">
-    <input class="edit" type="text" value="${element.description}" readOnly>
+    <input class="edit" type="text" value="${element.description}">
     <div>
     <i id="${element.index}" class="fa-solid fa-trash-can"></i>
     </div>
