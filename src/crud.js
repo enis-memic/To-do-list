@@ -39,7 +39,7 @@ addButton.addEventListener('click', (e) => {
 
   const object = {
     description: inputValue.value,
-    index: taskList.length,
+    index: taskList.length + 1,
     completed: false,
   };
   taskList.push(object);
@@ -52,7 +52,7 @@ addButton.addEventListener('click', (e) => {
 const remove = (index) => {
   const removeList = taskList.filter((element) => element.index !== index);
   taskList.length = 0;
-  let i = 0;
+  let i = 1;
   removeList.forEach((element) => {
     element.index = i;
     i += 1;
