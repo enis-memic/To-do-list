@@ -47,19 +47,14 @@
 
 ### Key Features <a name="key-features"></a>
 
-Following futures will be added in the next couple days, right now there is no any futures!
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Addin task**
+- **Removing task**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://enis-memic.github.io/To-do-list/)
 
@@ -108,10 +103,6 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- **Add task**
-- **Remove task**
 - **Hover over tasks**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

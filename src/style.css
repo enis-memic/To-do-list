@@ -5,12 +5,14 @@ body {
   padding: 0;
   border: 1px solid #7e7e7e;
 }
+
 header {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
+
 .heading {
   font-weight: 600;
   margin: 10px;
@@ -23,11 +25,13 @@ header {
   font-style: italic;
   font-size: 18px;
 }
+
 .input-add {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .new-task {
   display: flex;
   align-items: center;
@@ -40,12 +44,14 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 .task {
   display: flex;
   gap: 20px;
   justify-content: center;
   align-items: center;
 }
+
 .edit {
   padding: 5px;
   margin: 10px;
