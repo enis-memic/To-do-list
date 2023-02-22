@@ -21,6 +21,11 @@ body {
 }
 .input-add {
   display: flex;
+  justify-content: space-between;
+}
+.images {
+  width: 15px;
+  margin-left: 20px;
 }
 
 ul {
@@ -28,12 +33,11 @@ ul {
   margin: 0;
   padding: 0;
 }
-
-.list-el {
+.task {
   display: flex;
   gap: 10px;
-  border-bottom: 1px solid rgb(238, 238, 238);
-  font-size: 18px;
+  justify-content: center;
+  align-items: center;
 }
 
 .to-do button {
