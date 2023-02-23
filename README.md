@@ -47,11 +47,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-Following futures will be added in the next couple days, right now there is no any futures!
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Addin task**
+- **Removing task**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,9 +56,9 @@ Following futures will be added in the next couple days, right now there is no a
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+Will be provided after the last section is added!
 
-- [Live Demo Link](https://enis-memic.github.io/To-do-list/)
+<!-- - [Live Demo Link](https://enis-memic.github.io/To-do-list/) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,21 +70,36 @@ To get a local copy up and running, follow these steps.
 
 ### Setup
 
-Clone this repository to your desired folder:
+to use the project To do list please follow :
 
-```sh
-  cd my-folder
-  git clone git@github.com:enis-memic/To-do-list.git
-```
+> Open GitHub and go to my GitHub repository name:ToDO list.to clone.
+> Click “Code” and copy the given URL.
+> click code and copy the URL.
 
-### Install
+> click code and copy the URL.
 
-Install this project with:
+> Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
 
-```sh
-  cd my-project
-  gem install
-```
+> Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
+
+> Syntax:
+
+$ git clone {repository URL}
+
+### Usage
+
+> open your directory ToDo list/
+
+\_use vs-code or any IDE to view line code .
+
+\_use you preferd browser to run the file .html to get project website.
+to run in terminal / git :
+
+---
+
+$ npm start
+
+---
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,9 +107,7 @@ Install this project with:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
+👤 **Enis Memic**
 
 - GitHub: [@enis-memic](https://github.com/enis-memic)
 - LinkedIn: [enis-memic](https://linkedin.com/in/enis-memic)
@@ -108,10 +118,6 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- **Add task**
-- **Remove task**
 - **Hover over tasks**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -149,7 +155,5 @@ I would like to thank Microverse!
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
