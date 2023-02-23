@@ -71,6 +71,7 @@ ul {
   border: none;
   font-size: 18px;
 }
+
 .delete {
   display: inline-block;
   height: 50px;
@@ -79,7 +80,7 @@ ul {
   background-color: #1d3d32;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  color: #ffffff;
+  color: #fff;
   border-radius: 5px;
   margin-top: 2px;
   padding: 5px;
