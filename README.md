@@ -49,6 +49,8 @@
 
 - **Addin task**
 - **Removing task**
+- **Completing task using check**
+- **Removing all task using button**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
