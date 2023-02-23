@@ -14,6 +14,7 @@ const display = () => {
     const task = document.createElement('div');
     const comp = element.completed ? 'checked' : '';
     task.classList.add('task');
+    task.setAttribute('draggable', 'true');
     task.innerHTML = `
     <input type="checkbox" class="check" ${comp} id="check" data-set="${element.index}">
     <input class="edit" type="text" value="${element.description}">
@@ -22,6 +23,12 @@ const display = () => {
     </div>
     `;
     taskListDisplay.appendChild(task);
+
+    task.addEventListener('dragstart', (e) => {
+      const index = Array.from(taskListDisplay.children).indexOf(e.target);
+      e.dataTransfer.setData('text/plain', index);
+    });
+
     const taskList2 = task.children[1];
     taskList2.addEventListener('change', () => {
       const listingData = document.querySelector('#data');
@@ -77,4 +84,27 @@ taskListDisplay.addEventListener('click', clearing);
 deleteBtn.addEventListener('click', () => {
   clear();
   display();
+});
+
+taskListDisplay.addEventListener('dragover', (e) => {
+  e.preventDefault();
+  taskListDisplay.classList.add('dragover');
+});
+
+taskListDisplay.addEventListener('dragleave', (e) => {
+  e.preventDefault();
+  taskListDisplay.classList.remove('dragover');
+});
+
+taskListDisplay.addEventListener('drop', (e) => {
+  e.preventDefault();
+  taskListDisplay.classList.remove('dragover');
+  const fromIndex = parseInt(e.dataTransfer.getData('text/plain'), 10);
+  const toIndex = Array.from(taskListDisplay.children).indexOf(e.target);
+  if (fromIndex !== toIndex) {
+    const task = taskList.splice(fromIndex, 1)[0];
+    taskList.splice(toIndex, 0, task);
+    localStorage.setItem('localItem', JSON.stringify(taskList));
+    display();
+  }
 });
