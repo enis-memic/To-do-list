@@ -58,9 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Will be provided after the last section is added!
-
-<!-- - [Live Demo Link](https://enis-memic.github.io/To-do-list/) -->
+- [Live Demo Link](https://enis-memic.github.io/To-do-list/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
