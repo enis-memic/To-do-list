@@ -105,10 +105,11 @@ Example command:
 ```sh
   node.js V16 and above
   npm install jest
+```
 
 ### Usage
 
-> open your directory ToDo list/
+> open your directory ToDo list
 
 \_use vs-code or any IDE to view line code .
 
