@@ -16,3 +16,24 @@ describe('Test for adding tasks', () => {
     expect(task).toHaveLength(task.length);
   });
 });
+
+describe('Test for removing list', () => {
+  it('Checks list if remove todo size reduces or not', () => {
+    localStorage.removeItem('localItem');
+    addList('task 4');
+    const task = JSON.parse(localStorage.getItem('localItem'));
+    const SIZE = task.length;
+    remove('task 5');
+    const newTasks = JSON.parse(localStorage.getItem('localItem'));
+    const newSIZE = newTasks.length;
+    expect(newSIZE).toBe(SIZE - 1);
+  });
+  it('Check is localStorage updated after remove', () => {
+    localStorage.removeItem('localItem');
+    addList('task 5');
+    const before = JSON.parse(localStorage.getItem('localItem'));
+    remove('task6');
+    const after = JSON.parse(localStorage.getItem('localItem'));
+    expect(after.length).toBe(before.length - 1);
+  });
+});
