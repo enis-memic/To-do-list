@@ -68,6 +68,16 @@
 
 To get a local copy up and running, follow these steps.
 
+### Prerequisites
+
+In order to run this project you need:
+
+Example command:
+
+```sh
+ install vs code or any other text editor.
+```
+
 ### Setup
 
 to use the project To do list please follow :
@@ -86,9 +96,20 @@ to use the project To do list please follow :
 
 $ git clone {repository URL}
 
+### Install
+
+Install this project with:
+
+Example command:
+
+```sh
+  node.js V16 and above
+  npm install jest
+```
+
 ### Usage
 
-> open your directory ToDo list/
+> open your directory ToDo list
 
 \_use vs-code or any IDE to view line code .
 
@@ -98,6 +119,16 @@ to run in terminal / git :
 ---
 
 $ npm start
+
+---
+
+### Run tests
+
+To run tests, run the following command:
+
+---
+
+$ npm test
 
 ---
 
@@ -112,13 +143,10 @@ $ npm start
 - GitHub: [@enis-memic](https://github.com/enis-memic)
 - LinkedIn: [enis-memic](https://linkedin.com/in/enis-memic)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+👤 **Mugisha.I**
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- **Hover over tasks**
+- GitHub: [@githubhandle](https://github.com/Tafloninno)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mugisha-innocent-19b700238/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,8 +172,6 @@ If you like this project please give it a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank Microverse!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -157,3 +183,4 @@ I would like to thank Microverse!
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+```
