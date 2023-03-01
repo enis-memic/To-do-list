@@ -1,4 +1,5 @@
 import addList from '../__mock__/addList.js';
+import remove from '../__mock__/removeList.js';
 
 describe('Test for adding tasks', () => {
   it('Check array of object is not null', () => {
