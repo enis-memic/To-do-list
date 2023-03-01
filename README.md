@@ -68,6 +68,16 @@
 
 To get a local copy up and running, follow these steps.
 
+### Prerequisites
+
+In order to run this project you need:
+
+Example command:
+
+```sh
+ install vs code or any other text editor.
+```
+
 ### Setup
 
 to use the project To do list please follow :
@@ -85,6 +95,16 @@ to use the project To do list please follow :
 > Syntax:
 
 $ git clone {repository URL}
+
+### Install
+
+Install this project with:
+
+Example command:
+
+```sh
+  node.js V16 and above
+  npm install jest
 
 ### Usage
 
@@ -162,3 +182,4 @@ I would like to thank Microverse!
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+```
