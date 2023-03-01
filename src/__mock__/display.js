@@ -14,16 +14,6 @@ const display = () => {
     <i id="${element.index}" class="fa-solid fa-trash-can"></i>
     </div>
     `;
-
-    const taskList2 = task.children[1];
-    taskList2.addEventListener('change', () => {
-      const listingData = document.querySelector('#data');
-      const arrayList = Array.from(listingData.children);
-      const index = arrayList.indexOf(task);
-      const taskLocal = JSON.parse(localStorage.getItem('localItem'));
-      taskLocal[index].description = taskList2.value;
-      localStorage.setItem('localItem', JSON.stringify(taskLocal));
-    });
   });
 };
 

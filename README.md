@@ -101,6 +101,16 @@ $ npm start
 
 ---
 
+### Run tests
+
+To run tests, run the following command:
+
+---
+
+$ npm test
+
+---
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -112,13 +122,10 @@ $ npm start
 - GitHub: [@enis-memic](https://github.com/enis-memic)
 - LinkedIn: [enis-memic](https://linkedin.com/in/enis-memic)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+👤 **Mugisha.I**
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- **Hover over tasks**
+- GitHub: [@githubhandle](https://github.com/Tafloninno)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mugisha-innocent-19b700238/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,8 +150,6 @@ If you like this project please give it a ⭐️
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank Microverse!
 
