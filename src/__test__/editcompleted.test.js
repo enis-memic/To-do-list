@@ -1,6 +1,7 @@
 import addList from '../__mock__/addList.js';
 import update from '../__mock__/updateList.js';
 import completedList from '../__mock__/completedList.js';
+import clear from '../__mock__/clearCompleted.js';
 
 describe('Test for update task lists', () => {
   it('Check if list is updated', () => {
