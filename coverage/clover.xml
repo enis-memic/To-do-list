@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1677751768458" clover="3.2.0">
-  <project timestamp="1677751768458" name="All files">
+<coverage generated="1677752267531" clover="3.2.0">
+  <project timestamp="1677752267531" name="All files">
     <metrics statements="47" coveredstatements="45" conditionals="14" coveredconditionals="9" methods="11" coveredmethods="10" elements="72" coveredelements="64" complexity="0" loc="47" ncloc="47" packages="1" files="6" classes="6"/>
     <file name="addList.js" path="/home/enis/To-do-list/src/__mock__/addList.js">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
